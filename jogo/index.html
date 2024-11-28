@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - javascript</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: black;
+            color: rgb(245, 243, 240);
+        }
+
+        .container {
+            border: 2px solid rgb(24, 231, 24);
+            width: 60%;
+            margin: 0 auto;
+            margin-top: 17%;
+            padding: 20px;
+        }
+
+       
+        .c1 {
+            color: red;
+        }
+        .c2 {
+            color:blueviolet
+        }
+        .c3 {
+            color:blue
+        }
+        .c4 {
+            color:rgb(218, 18, 128)
+        }
+
+        input {
+            width: 25%;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+            padding-left: 12px;
+        }
+
+        button {
+            background-color: #4ec452;
+            color:rgb(22, 10, 49);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 14px;
+            padding: 10px 50px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            
+        }
+
+        button:hover {
+            background-color: #2a9e2e;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+<body> 
+<div class="container">
+    <h1><span class="c1">JOGO</span><span class="c2"> PEDRA,</span><span class="c3"> PAPEL</span> E <span class="c4">TESOURA</span></h1><br>
+    <input id="escolha" type="text" placeholder="Dgite pedra, papel ou tesoura"><br><br>
+    <button onclick="clico()">Enviar</button><br><br>
+    <p id="texto"></p>
+</div>
+       
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
