@@ -13,4 +13,4 @@
 - **CSS**: Estilização para uma experiência visual agradável.
 - **JavaScript**: Lógica do jogo, interação e escolha aleatória do computador.
 
-- ![Imagem do Jogo](https://via.p)
+- ![Imagem do Jogo](img-jogo.png)
